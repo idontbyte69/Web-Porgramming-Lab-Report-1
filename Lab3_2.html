@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="lab3_2.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Registration Form</h1>
+        <form>
+            <div class="input-field">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+            </div>
+
+            <div class="input-field">
+                <label for="birthdate">Birthdate:</label>
+                <input type="date" id="birthdate" name="birthdate">
+            </div>
+
+            <div class="input-field">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div class="input-field">
+                <label for="division">Division:</label>
+                <select id="division" name="division">
+                    <option value="Dhaka">Dhaka</option>
+                    <option value="Barishal">Barishal</option>
+                    <option value="Chottogram">Chottogram</option>
+                    <option value="Joshor">Joshor</option>
+                    <option value="Sylhet">Sylhet</option>
+                    <option value="Khulna">Khulna</option>
+                    <option value="Rongpur">Rongpur</option>
+                </select>
+            </div>
+
+            <div class="input-field">
+                <label for="comment">Comments:</label>
+                <textarea id="comment" name="comment" rows="4"></textarea>
+            </div>
+
+            <div class="input-field">
+                <label for="file">Upload File:</label>
+                <input type="file" id="file" name="file">
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
